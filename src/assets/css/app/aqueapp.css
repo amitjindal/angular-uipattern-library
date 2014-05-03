@@ -108,7 +108,7 @@
 /**
  * Focus Styles
  */
-.tapestry-header .text-input:focus, .tapestry-header textarea:focus {
+.aqueapp-header .text-input:focus, .aqueapp-header textarea:focus {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 232, 0.5);
   border-color: #51A7E8; }
 
@@ -1439,7 +1439,7 @@ html[ng-app] {
 /**
  * Header
  */
-.tapestry-header {
+.aqueapp-header {
   background: #1F253D;
   color: #fff;
   text-align: center;
@@ -1460,12 +1460,12 @@ html[ng-app] {
   /* Links */
   /* Icon */
   /* Toggle button */ }
-  .tapestry-header:before, .tapestry-header:after {
+  .aqueapp-header:before, .aqueapp-header:after {
     content: " ";
     display: table; }
-  .tapestry-header:after {
+  .aqueapp-header:after {
     clear: both; }
-  .tapestry-header .text-input, .tapestry-header textarea {
+  .aqueapp-header .text-input, .aqueapp-header textarea {
     border: 1px #BFBFBF solid;
     padding: 0.6em 1em;
     background: #FAFAFA;
@@ -1479,16 +1479,16 @@ html[ng-app] {
     background: transparent;
     border-color: #fff;
     color: #fff; }
-  .tapestry-header .form-control {
+  .aqueapp-header .form-control {
     position: relative;
     margin-bottom: 18px;
     margin-bottom: 1.28571rem;
     /* Icon on the left side */
     /* Button unstyled */ }
-    .tapestry-header .form-control .text-input {
+    .aqueapp-header .form-control .text-input {
       padding-right: 35px;
       margin-bottom: 0; }
-    .tapestry-header .form-control .fa {
+    .aqueapp-header .form-control .fa {
       position: absolute;
       right: 10px;
       top: 50%;
@@ -1496,13 +1496,13 @@ html[ng-app] {
       margin-top: -8px;
       height: 15px;
       color: #BFBFBF; }
-    .tapestry-header .form-control.icon-left .text-input {
+    .aqueapp-header .form-control.icon-left .text-input {
       padding-left: 35px;
       padding-right: inherit; }
-    .tapestry-header .form-control.icon-left .fa {
+    .aqueapp-header .form-control.icon-left .fa {
       left: 10px;
       right: auto; }
-    .tapestry-header .form-control .btn--unstyled {
+    .aqueapp-header .form-control .btn--unstyled {
       padding: 0;
       margin: 0;
       vertical-align: top;
@@ -1510,7 +1510,7 @@ html[ng-app] {
       right: 0;
       top: 0;
       height: 100%; }
-  .tapestry-header .form-control {
+  .aqueapp-header .form-control {
     position: absolute;
     right: 1em;
     top: 15px;
@@ -1518,26 +1518,26 @@ html[ng-app] {
     width: 230px;
     display: none; }
     @media only screen and (min-width: 600px) {
-      .tapestry-header .form-control {
+      .aqueapp-header .form-control {
         display: block; } }
     @media only screen and (min-width: 600px) and (max-width: 960px) { }
-  .menu__opened .tapestry-header {
+  .menu__opened .aqueapp-header {
     -webkit-transform: translate3d(250px, 0, 0);
     -moz-transform: translate3d(250px, 0, 0);
     -ms-transform: translate3d(250px, 0, 0);
     -o-transform: translate3d(250px, 0, 0);
     transform: translate3d(250px, 0, 0); }
-  .tapestry-header a {
+  .aqueapp-header a {
     color: #fff; }
-    .tapestry-header a:hover {
+    .aqueapp-header a:hover {
       color: #fff; }
-    .tapestry-header a:active {
+    .aqueapp-header a:active {
       color: #fff; }
-  .tapestry-header a {
+  .aqueapp-header a {
     text-decoration: none; }
-  .tapestry-header .fa {
+  .aqueapp-header .fa {
     color: #fff; }
-  .tapestry-header .btn--toggle {
+  .aqueapp-header .btn--toggle {
     position: absolute;
     padding: 0;
     left: 0px;
@@ -1548,10 +1548,10 @@ html[ng-app] {
     font-size: 30px;
     display: block;
     /* menu opened */ }
-    .tapestry-header .btn--toggle .fa {
+    .aqueapp-header .btn--toggle .fa {
       vertical-align: top;
       line-height: 70px; }
-    .menu__opened .tapestry-header .btn--toggle .fa:before {
+    .menu__opened .aqueapp-header .btn--toggle .fa:before {
       content: "\f00d"; }
 
 /*------------------------------------*\
@@ -1593,45 +1593,45 @@ html[ng-app] {
 /**
  * Sidemenu
  */
-.tapestry-menu-side {
+.aqueapp-menu-side {
   line-height: 1.4;
   display: none;
   font-family: 'Open Sans', Helvetica, Arial; }
-  .tapestry-menu-side ul {
+  .aqueapp-menu-side ul {
     list-style: none;
     margin: 0 0 20px 10px;
     padding: 0;
     word-wrap: break-word; }
     @media only screen and (min-width: 1400px) {
-      .tapestry-menu-side ul {
+      .aqueapp-menu-side ul {
         position: fixed;
         max-width: 180px; } }
-  .tapestry-menu-side li {
+  .aqueapp-menu-side li {
     display: inline-block;
     width: 33%;
     margin: 0;
     vertical-align: top;
     position: relative; }
-  .tapestry-menu-side a {
+  .aqueapp-menu-side a {
     color: #8c8c8c;
     text-decoration: none;
     padding: 5px 0;
     display: block; }
-  .tapestry-menu-side a:hover {
+  .aqueapp-menu-side a:hover {
     color: #444; }
-  .tapestry-menu-side .active, .tapestry-menu-side .active:hover, .tapestry-menu-side .active > a {
+  .aqueapp-menu-side .active, .aqueapp-menu-side .active:hover, .aqueapp-menu-side .active > a {
     color: #1ABC9C; }
   @media only screen and (min-width: 600px) {
-    .tapestry-menu-side {
+    .aqueapp-menu-side {
       display: block;
       position: relative; } }
   @media only screen and (min-width: 1400px) {
-    .tapestry-menu-side {
+    .aqueapp-menu-side {
       position: absolute;
       left: -200px;
       top: 5px;
       width: 200px; }
-      .tapestry-menu-side li {
+      .aqueapp-menu-side li {
         display: block;
         width: auto; } }
 
@@ -1639,13 +1639,13 @@ html[ng-app] {
  * when menu opens
  */
 @media only screen and (min-width: 1400px) {
-  .menu__opened .tapestry-menu-side ul {
+  .menu__opened .aqueapp-menu-side ul {
     position: absolute; } }
 
 /**
  * Menu
  */
-.tapestry-menu {
+.aqueapp-menu {
   font-family: 'Open Sans', Helvetica, Arial;
   background: #EDEEF1;
   background: #fff;
@@ -1671,7 +1671,7 @@ html[ng-app] {
   line-height: 1.6;
   /* heading */
   /* UL */ }
-  .menu__opened .tapestry-menu {
+  .menu__opened .aqueapp-menu {
     display: block;
     -webkit-transform: translate3d(0px, 0, 0);
     -moz-transform: translate3d(0px, 0, 0);
@@ -1679,52 +1679,52 @@ html[ng-app] {
     -o-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0);
     box-shadow: 0px 0 6px 1px rgba(0, 0, 0, 0.1); }
-  .tapestry-menu .menu__header {
+  .aqueapp-menu .menu__header {
     font-size: 16px;
     font-size: 1.14286rem;
     text-transform: capitalize;
     margin: 0;
     margin-bottom: 10px;
     font-weight: 600; }
-  .tapestry-menu ul {
+  .aqueapp-menu ul {
     list-style: none;
     margin: 0 -20px 20px -20px;
     padding: 0;
     padding-bottom: 15px;
     border-bottom: 1px #BFBFBF solid; }
-  .tapestry-menu li {
+  .aqueapp-menu li {
     margin: 0; }
-  .tapestry-menu a {
+  .aqueapp-menu a {
     display: block;
     color: #1ABC9C;
     padding: 3px 20px;
     text-decoration: none; }
-  .tapestry-menu a:hover, .tapestry-menu .active > a {
+  .aqueapp-menu a:hover, .aqueapp-menu .active > a {
     background: #d9dcde;
     background: #1ABC9C;
     color: #fff; }
 
 /* Heading */
-.tapestry__heading {
+.aqueapp__heading {
   margin: 8px 0 0 0;
   font-family: 'Open Sans', Helvetica, Arial; }
   @media only screen and (min-width: 600px) {
-    .tapestry__heading {
+    .aqueapp__heading {
       margin-top: 5px; } }
 
 /**
  * Static Content
  */
-.tapestry-wrapper {
+.aqueapp-wrapper {
   padding-top: 15px; }
-  .tapestry-wrapper .container {
+  .aqueapp-wrapper .container {
     position: relative; }
   @media only screen and (min-width: 960px) {
-    .tapestry-wrapper > .container {
+    .aqueapp-wrapper > .container {
       width: 990px;
       margin: 0 auto; } }
   @media only screen and (min-width: 600px) {
-    .tapestry-wrapper {
+    .aqueapp-wrapper {
       padding-top: 30px; } }
 
 /* Menu opened */
@@ -1732,15 +1732,15 @@ html[ng-app] {
   overflow-x: hidden; }
 
 /**
- * Tapestry content
+ * AqueApp content
  */
-.tapestry-content {
+.aqueapp-content {
   -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.25, 1);
   -moz-transition: all 0.2s cubic-bezier(0, 0, 0.25, 1);
   transition: all 0.2s cubic-bezier(0, 0, 0.25, 1);
   position: relative;
   padding-top: 70px; }
-  .menu__opened .tapestry-content {
+  .menu__opened .aqueapp-content {
     -webkit-transform: translate3d(250px, 0, 0);
     -moz-transform: translate3d(250px, 0, 0);
     -ms-transform: translate3d(250px, 0, 0);
@@ -1748,24 +1748,24 @@ html[ng-app] {
     transform: translate3d(250px, 0, 0); }
 
 /**
- * Tapestry Hero Module
+ * AqueApp Hero Module
  */
-.ui-module-hero-tapestry {
+.ui-module-hero-aqueapp {
   color: #fff;
   padding: 30px 0 30px 0;
   background: #1ABC9C;
   text-align: center; }
   @media only screen and (min-width: 960px) {
-    .ui-module-hero-tapestry .container {
+    .ui-module-hero-aqueapp .container {
       width: 800px;
       margin: 0 auto; } }
-  .ui-module-hero-tapestry h1, .ui-module-hero-tapestry .text--lead {
+  .ui-module-hero-aqueapp h1, .ui-module-hero-aqueapp .text--lead {
     font-family: 'Open Sans', Helvetica, Arial; }
-  .ui-module-hero-tapestry .text--lead {
+  .ui-module-hero-aqueapp .text--lead {
     font-size: 24px;
     font-weight: 300;
     margin: 0 0 30px 0; }
-  .ui-module-hero-tapestry hr {
+  .ui-module-hero-aqueapp hr {
     background: transparent;
     border-top: 1px #fff solid;
     border-bottom-width: 0;
@@ -1831,39 +1831,39 @@ html[ng-app] {
 /**
  * Features
  */
-.tapestry-features {
+.aqueapp-features {
   list-style: none;
   margin: 0 auto;
   padding: 30px 0 0 0;
   font-family: 'Open Sans', Helvetica, Arial;
   font-size: 0; }
   @media only screen and (min-width: 960px) {
-    .tapestry-features {
+    .aqueapp-features {
       width: 800px; } }
-  .tapestry-features > li {
+  .aqueapp-features > li {
     font-size: 16px;
     vertical-align: top;
     margin: 0;
     padding: 0 0 10px 0; }
     @media only screen and (min-width: 600px) {
-      .tapestry-features > li {
+      .aqueapp-features > li {
         display: inline-block;
         width: 33%;
         padding-right: 20px; } }
-  .tapestry-features h3 {
+  .aqueapp-features h3 {
     font-weight: 600; }
 
 /**
  * Footer
  */
-.tapestry__footer {
+.aqueapp__footer {
   text-align: center;
   margin-top: 2em;
   border-top: 1px #d9d9d9 solid;
   padding-top: 20px;
   font-family: 'Open Sans', Helvetica, Arial;
   font-size: 12px; }
-  .tapestry__footer p {
+  .aqueapp__footer p {
     margin-bottom: 15px; }
 
 /**
@@ -1996,10 +1996,10 @@ code {
 /**
  * Template listing
  */
-.tapestry-template-list {
+.aqueapp-template-list {
   list-style: none;
   margin: 0 0 20px 0; }
-  .tapestry-template-list li {
+  .aqueapp-template-list li {
     display: inline-block;
     vertical-align: top;
     width: 30%;

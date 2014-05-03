@@ -1,8 +1,8 @@
 /**
- * Tapestry Directives
+ * AqueApp Directives
  */
 
-angular.module('tapestry.directives', [])
+angular.module('aqueapp.directives', [])
 		
 	.directive('compile', ['$compile', function ($compile) {
 			return function(scope, element, attrs) {
@@ -148,7 +148,7 @@ angular.module('tapestry.directives', [])
 											
 											$timeout(function(){
 
-												angular.element('body').trigger('tapestry.completed')	
+												angular.element('body').trigger('aqueapp.completed')	
 											},500)											
 											
 										}
@@ -197,7 +197,7 @@ angular.module('tapestry.directives', [])
 				};
 		 }])
 	
-	.directive('tapestryVersion', ['version', function(version) {
+	.directive('aqueappVersion', ['version', function(version) {
 		return function(scope, elm, attrs) {
 		  elm.text(version);
 		};

@@ -1,11 +1,11 @@
 {
-  "name": "Tapestry",
+  "name": "AqueApp",
   "version": "1.0.0",
   "description": "An app for creating and managing your front-end pattern library",
-  "homepage": "https://github.com/pebbleRoad/tapestry",
+  "homepage": "https://github.com/pebbleRoad/aqueapp",
   "author": {
     "name": "Vinay M",
-    "url": "https://github.com/pebbleRoad/tapestry"
+    "url": "https://github.com/pebbleRoad/aqueapp"
   },
   "licenses": [
     {
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:PebbleRoad/tapestry.git"
+    "url": "git@github.com:PebbleRoad/aqueapp.git"
   },
   "bugs": {
-    "url": "https://github.com/PebbleRoad/tapestry"
+    "url": "https://github.com/PebbleRoad/aqueapp"
   },
   "engines": {
     "node": ">=0.8.0"

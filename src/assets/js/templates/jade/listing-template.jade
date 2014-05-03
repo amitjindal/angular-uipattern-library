@@ -1,15 +1,15 @@
-.tapestry-wrapper
+.aqueapp-wrapper
 	
 	.container
 
-		.tapestry-menu-side
+		.aqueapp-menu-side
 			ul(once-show="patterns.children.length > 1")
 				li(ng-repeat="pattern in patterns.children")
 					a(data-target="#{{pattern.name | anchor}}", ng-href="#/{{rootSection}}/{{sectionSlug}}/{{pattern.name | anchor}}", once-text="pattern.name", ng-class="{active: anchor(pattern.name) == subSection}")
 
 		.main-content
 
-			ul.tapestry-template-list
+			ul.aqueapp-template-list
 				li(ng-repeat="template in templates.children")
 					a(once-href="template.meta.url")
 						img(once-src="template.meta.preview")

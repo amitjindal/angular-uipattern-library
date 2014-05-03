@@ -11,14 +11,14 @@ var version = '1.0.0',
 /* jsonPath of the files will be inserted by gulp-script-inject after reading /src/json folder */
 
 /**
- * Tapestry Module
+ * AqueApp Module
  */
 
-angular.module('tapestry', [
-    'tapestry.services', 
-    'tapestry.controllers', 
-    'tapestry.directives', 
-    'tapestry.filters', 
+angular.module('aqueapp', [
+    'aqueapp.services', 
+    'aqueapp.controllers', 
+    'aqueapp.directives', 
+    'aqueapp.filters', 
     'ngRoute',
     'once'
 

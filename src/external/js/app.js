@@ -2,9 +2,9 @@
 
     FastClick.attach(document.body);
 
-    /** Tapestry Completed */
+    /** AqueApp Completed */
 
-    $('body').bind('tapestry.completed', function(){
+    $('body').bind('aqueapp.completed', function(){
 
         APP.init()
     });
@@ -133,9 +133,9 @@
 
             $('[data-toggle]').dropdown();
 
-            //$('.tapestry-menu-side').scrollspy();
+            //$('.aqueapp-menu-side').scrollspy();
             
-            var $menu = $('.tapestry-menu-side a')
+            var $menu = $('.aqueapp-menu-side a')
         }
     }
 

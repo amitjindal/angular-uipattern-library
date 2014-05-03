@@ -827,10 +827,10 @@ label, input, textarea, button, select, option {
 /**
  * Base elements
  */
-h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, blockquote, p, address, table, fieldset, figure, pre, .form-fields > li, .media, .island, .islet {
+.form-fields > li {
   margin-bottom: 24px;
   margin-bottom: 1.71429rem; }
-  .islet h1, .islet h2, .islet h3, .islet h4, .islet h5, .islet h6, .islet hgroup, .islet ul, .islet ol, .islet dl, .islet blockquote, .islet p, .islet address, .islet table, .islet fieldset, .islet figure, .islet pre, .islet %sass-margin-bottom, .islet .form-fields > li, .form-fields > .islet li, .islet .media, .islet .island, .islet .islet {
+  .islet .form-fields > li {
     margin-bottom: 12px;
     margin-bottom: 0.85714rem; }
 
@@ -2671,7 +2671,7 @@ label, .label {
  * She's all yours, cap'n... Begin importing your stuff here.
  */
 /*------------------------------------*\
-    TAPESTRY.CSS
+    AQUEAPP.CSS
 \*------------------------------------*/
 /**
 * Import Modules
@@ -4057,7 +4057,7 @@ table {
 /*------------------------------------*\
     ACCORDION.CSS
 \*------------------------------------*/
-.tab__handle--mobile:after, .accordion__header:after {
+.tab__handle--mobile:after, .accordion__header:after, .tab__handle--mobile:after {
   content: "\f107";
   font-family: FontAwesome;
   float: right;
@@ -4083,7 +4083,7 @@ table {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-  .accordion__header:first-child {
+  .accordion__header:first-child, .tab__handle--mobile:first-child {
     border-top: 1px #BFBFBF solid; }
 
 /* Active Content */
@@ -4108,7 +4108,7 @@ table {
     padding-left: 1em; }
   .ui-accordion--bordered .accordion__content {
     border-bottom: 1px #BFBFBF solid; }
-  .ui-accordion--bordered .accordion__header:first-child {
+  .ui-accordion--bordered .accordion__header:first-child, .ui-accordion--bordered .tab__handle--mobile:first-child {
     border-top-style: none; }
 
 /*------------------------------------*\

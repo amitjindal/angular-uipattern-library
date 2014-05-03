@@ -1,10 +1,10 @@
 doctype
-html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
+html.no-js(lang='en', ng-app="aqueapp", class="aqueapp menu__opened")
 	head
 		meta(charset='utf-8')
 		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
 		block variables 
-		title(ng-bind="'Tapestry - ' + section") Tapestry
+		title(ng-bind="'AqueApp - ' + section") AqueApp
 		meta(name='description', content='')
 		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
 		
@@ -14,7 +14,7 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 		// / Your CSS File
 
 
-		link(rel='stylesheet', href='assets/css/app/tapestry.css')
+		link(rel='stylesheet', href='assets/css/app/aqueapp.css')
 		link(rel='stylesheet', href='bower_components/prism/themes/prism.css') 
 		//link(rel='stylesheet', href='bower_components/dropzone/downloads/css/basic.css')       
 		link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700', rel='stylesheet')
@@ -26,7 +26,7 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 		// Menu
 		
-		nav.tapestry-menu
+		nav.aqueapp-menu
 			h3.menu__header Introduction
 			ul
 				li(ng-class="{active: section=='Overview'}"): a(href="#/") Overview
@@ -40,9 +40,9 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 		// / Menu
 
-		header.tapestry-header(ng-controller="headerController")                
+		header.aqueapp-header(ng-controller="headerController")                
 
-			h3.tapestry__heading(ng-bind="section")
+			h3.aqueapp__heading(ng-bind="section")
 
 			button.btn.btn--unstyled.btn--toggle(ng-click="toggleMenu($event)")
 				em.fa.fa-bars
@@ -52,7 +52,7 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 				em.fa.fa-search.fa-lg
 
 		// Content
-		.tapestry-content
+		.aqueapp-content
 
 			block content
 
@@ -61,7 +61,7 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 				.row
 					.columns.ten.twelve--tablet.column--center
 
-						footer.tapestry__footer
+						footer.aqueapp__footer
 							p Designed and built by the folks at
 							p
 								a(href="http://pebbleroad.com")
@@ -69,7 +69,7 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 							p 
 								| Code licensed under MIT, documentation under CC BY 3.0. <br>Version 
-								span(tapestry-version)
+								span(aqueapp-version)
 								| . Last Updated on 
 								span(last-updated) 
 								| . 
@@ -108,9 +108,9 @@ html.no-js(lang='en', ng-app="tapestry", class="tapestry menu__opened")
 
 		// Your JS Files
 		script(src="//cdnjs.cloudflare.com/ajax/libs/fastclick/0.6.11/fastclick.min.js")
-		script(src="external/js/components/tapestry.ui.tabs.js")
-		script(src="external/js/components/tapestry.ui.dropdown.js")
-		script(src="external/js/components/tapestry.ui.accordion.js")
+		script(src="external/js/components/aqueapp.ui.tabs.js")
+		script(src="external/js/components/aqueapp.ui.dropdown.js")
+		script(src="external/js/components/aqueapp.ui.accordion.js")
 		script(src="bower_components/Selecter/jquery.fs.selecter.js")
 		script(src="bower_components/dropzone/downloads/dropzone.js")
 		script(src="bower_components/jQuery-Autocomplete/src/jquery.autocomplete.js")

@@ -1,8 +1,8 @@
 /**
- * Tapestry Controllers
+ * AqueApp Controllers
  */
 
-angular.module('tapestry.controllers', [])
+angular.module('aqueapp.controllers', [])
 
     .controller('headerController', ['$scope', 'isMobile', '$rootScope', '$filter', function($scope, isMobile, $rootScope, $filter){
 
@@ -54,7 +54,7 @@ angular.module('tapestry.controllers', [])
          * Stop propagation in menu
          */
         
-        document.getElementsByClassName('tapestry-menu')[0].addEventListener('click', function(e){
+        document.getElementsByClassName('aqueapp-menu')[0].addEventListener('click', function(e){
             e.stopPropagation()
         })
 
@@ -130,7 +130,7 @@ angular.module('tapestry.controllers', [])
         /**
          * Sub menu click event
          */
-        var $menu = angular.element('.tapestry-menu-side').on('click', 'a', function(e){
+        var $menu = angular.element('.aqueapp-menu-side').on('click', 'a', function(e){
 
                 var id = $(this).data('target'),
                     href = this.hash,
@@ -168,7 +168,7 @@ angular.module('tapestry.controllers', [])
          * Scroll to the section
          */
         
-        angular.element('body').unbind('tapestry.completed.scrollspy');
+        angular.element('body').unbind('aqueapp.completed.scrollspy');
         
         if($routeParams.section){
 
@@ -183,15 +183,15 @@ angular.module('tapestry.controllers', [])
                     $interval.cancel(checkIdExists)
 
                     var top = anchor.length? anchor.position().top : 0,
-                        headerHeight = $('.tapestry-header').outerHeight()
+                        headerHeight = $('.aqueapp-header').outerHeight()
 
                     /**
                      * Scroll to the section                 
                      */
-                    angular.element('body').bind('tapestry.completed.scrollspy', function(){
+                    angular.element('body').bind('aqueapp.completed.scrollspy', function(){
                         
                         var top = anchor.length? anchor.position().top : 0,
-                        headerHeight = $('.tapestry-header').outerHeight()
+                        headerHeight = $('.aqueapp-header').outerHeight()
 
                         $scope.scrollTo(top - headerHeight + 80)
 

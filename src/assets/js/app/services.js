@@ -1,5 +1,5 @@
 /**
- * Tapestry Services
+ * AqueApp Services
  */
 
-angular.module('tapestry.services', []);
+angular.module('aqueapp.services', []);

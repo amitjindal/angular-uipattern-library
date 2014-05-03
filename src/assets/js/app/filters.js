@@ -1,8 +1,8 @@
 /**
- * Tapestry Filters
+ * AqueApp Filters
  */
 
-angular.module('tapestry.filters', [])
+angular.module('aqueapp.filters', [])
     .filter('anchor', [function(){
 
         return function(text){

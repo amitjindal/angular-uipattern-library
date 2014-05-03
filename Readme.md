@@ -1,4 +1,4 @@
-# Tapestry - Pattern Library Maker
+# AqueApp - Pattern Library Maker
 
 An app for creating and managing your front-end pattern library.
 
@@ -19,7 +19,7 @@ Dependecy
 
 1. Clone the repository
 
-        git clone https://github.com/PebbleRoad/tapestry.git
+        git clone https://github.com/PebbleRoad/aqueapp.git
 
 2. Install NPM and bower packages
     

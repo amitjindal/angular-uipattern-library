@@ -39,7 +39,7 @@ html[ng-app]{
  * Header
  */
 
-.tapestry-header{
+.aqueapp-header{
     background: $color-dark;
     color: #fff;
     text-align: center;
@@ -255,7 +255,7 @@ html[ng-app]{
  */
 
 
-.tapestry-menu-side{
+.aqueapp-menu-side{
     line-height: 1.4;
     display: none;
     font-family: $fontfamily;
@@ -323,7 +323,7 @@ html[ng-app]{
  */
 
 @include media-query(widescreen){
-    .menu__opened .tapestry-menu-side ul{
+    .menu__opened .aqueapp-menu-side ul{
         position: absolute;
     }
 }
@@ -335,7 +335,7 @@ html[ng-app]{
 
 $menu-spacing: 20px;
 
-.tapestry-menu{
+.aqueapp-menu{
     font-family: $fontfamily;
     background: $color-light-grey;
     background: #fff;
@@ -406,7 +406,7 @@ $menu-spacing: 20px;
 
 /* Heading */
 
-.tapestry__heading{
+.aqueapp__heading{
     margin: 8px 0 0 0;     
     font-family: $fontfamily;
 
@@ -420,7 +420,7 @@ $menu-spacing: 20px;
  * Static Content
  */
 
-.tapestry-wrapper{
+.aqueapp-wrapper{
     padding-top: 15px;
 
     .container{
@@ -449,10 +449,10 @@ $menu-spacing: 20px;
 }
 
 /**
- * Tapestry content
+ * AqueApp content
  */
 
-.tapestry-content{
+.aqueapp-content{
     @include transition(all 0.2s cubic-bezier(0,0,0.25,1));
     position: relative;    
     
@@ -465,10 +465,10 @@ $menu-spacing: 20px;
 
 
 /**
- * Tapestry Hero Module
+ * AqueApp Hero Module
  */
 
-.ui-module-hero-tapestry{
+.ui-module-hero-aqueapp{
     color: #fff;
     padding: 30px 0 30px 0;
     background: $color-primary;
@@ -572,7 +572,7 @@ $menu-spacing: 20px;
  * Features
  */
 
-.tapestry-features{
+.aqueapp-features{
     list-style: none;
     margin: 0 auto;
     padding: 30px 0 0 0;
@@ -608,7 +608,7 @@ $menu-spacing: 20px;
  * Footer
  */
 
-.tapestry__footer{
+.aqueapp__footer{
     text-align: center;
     margin-top: 2em;
     border-top: 1px lighten($base-ui-color, 10%) solid;
@@ -806,7 +806,7 @@ $menu-spacing: 20px;
  * Template listing
  */
 
-.tapestry-template-list{
+.aqueapp-template-list{
     list-style: none;
     margin: 0 0 20px 0;
 
